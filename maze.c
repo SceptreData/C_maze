@@ -10,7 +10,6 @@
  *   6. Pick a random 'visited' cell.
  *   7. Go to step 2 until you're satisfied with the maze.
  */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -18,13 +17,12 @@
  
 #define MAZE_W 60
 #define MAZE_H 25
- 
+
 #define CELL_RADIUS 2
- 
-#define MAGIC 666
- 
 #define CELL_ROW_W (MAZE_W / CELL_RADIUS - 1)
 #define CELL_COLUMN_H (MAZE_H / CELL_RADIUS - 1)
+
+#define MAGIC 666
 
 /* 
  *   dirList corresponds to cardinal directions. 0 = north, 1 = east, 2 = south, 3 = west  
